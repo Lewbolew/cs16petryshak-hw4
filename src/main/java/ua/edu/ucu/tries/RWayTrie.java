@@ -1,6 +1,9 @@
 package ua.edu.ucu.tries;
 
 public class RWayTrie implements Trie {
+    private int treeSize;
+    private Node root;
+
 
     @Override
     public void add(Tuple t) {
